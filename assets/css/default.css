@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .po-body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+} */
+
+.po-body {
+  background-color: #002567;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 250%;
+  height: 250%;
+  object-fit: cover;
+  object-position: right;
+}
+.gif-box:hover {
+  width: 250px;
+  height: 175px;
+}
+.gif-box {
+  width: 200px;
+  height: 140px;
+  overflow: hidden;
+}
